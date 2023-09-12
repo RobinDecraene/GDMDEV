@@ -10,6 +10,9 @@ Taak 3D For Web
 
 # Links
 SASS: https://sass-lang.com/
+
 Swiper: https://swiperjs.com/
+
 Gsap: https://greensock.com/gsap/
+
 Split-type: https://npm.io/package/split-type
