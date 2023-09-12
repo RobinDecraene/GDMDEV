@@ -3,13 +3,15 @@ Taak 3D For Web
 
 # Made with
 - SASS
-- Mix
+- Laravel mix
 - Swiper
 - Gsap
 - Split-type
 
 # Links
 SASS: https://sass-lang.com/
+
+Laravel mix: https://laravel-mix.com/
 
 Swiper: https://swiperjs.com/
 
