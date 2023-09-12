@@ -1,0 +1,15 @@
+.div--contact-width {
+  width: 50%;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.img--arrow-move {
+  width: 2rem;
+  height: auto;
+  transition: transform 0.8s ease;
+}
+
+.img--arrow-move:hover {
+  transform: rotate(-90deg);
+}

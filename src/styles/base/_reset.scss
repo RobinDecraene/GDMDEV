@@ -1,0 +1,42 @@
+html,
+body {
+  @include margin-padding;
+  max-width: 100%;
+  background-color: $whitev2;
+}
+
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+
+.img--arrow-width {
+  width: 1rem;
+  margin-right: 0.5rem;
+  height: auto
+}
+
+.section--style-center {
+  @include flex-colom;
+  align-items: center;
+}
+
+p {
+  line-height: 120%;
+}
+
+ul,
+li {
+  list-style: none;
+  @include margin-padding;
+}
+
+.div--flex-row {
+  @include flex-row;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  margin: 3rem;
+}

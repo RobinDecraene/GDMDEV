@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./dist/main.css">
+  <title>GDMDEV Contact</title>
+</head>
+
+<body>
+  <nav>
+    <p>GDMDEV</p>
+    <a id="open-button">
+      <img class="img--arrow-width" src="./icons/menu-arrow.svg" alt="Pijl">
+      Menu</a>
+  </nav>
+
+  <section class="section--style-center">
+    <span class="footer--animation-style">
+      <h1 class="h1--color-dark" id="stagger">Get in touch</h1>
+    </span>
+
+    <p class="p--email-dark" id="contactAppear">Info@GDMDEV.studio</p>
+    <div id="contactDoubleImg" class="div--flex-row div--contact-width">
+      <img class="img--square-size" src="./images/contact_page-afbeeldingen/div_1.1.jpg" alt="Urb.Apothecary">
+      <img class="img--square-size" src="./images/contact_page-afbeeldingen/div_1.2.jpg" alt="Kaartje">
+    </div>
+    <h3 class="p--uppercase-large" id="contactAppear">We look forward</h3>
+    <h5 class="p--cursive-small" id="contactAppear">to hearing from you.</h5>
+  </section>
+
+  <section class="section--style-center">
+    <form class="section--style-center">
+      <label for="input">Name</label>
+      <input type="text">
+
+      <label for="input">email</label>
+      <input type="email">
+
+      <label for="input">message</label>
+      <textarea cols="30" rows="5"></textarea>
+
+      <button class="button--style-send">Send
+        <img class="img--arrow-move" src="./images/contact_page-afbeeldingen/send-arrow.svg" alt="Pijl">
+      </button>
+    </form>
+    <div id="contactZoom" class="img--trigger-zoom">
+      <img src="./images/contact_page-afbeeldingen/div_3.jpg" alt="Kaartjes">
+    </div>
+  </section>
+
+  <footer class="section--style-center">
+    <span class="footer--animation-style">
+      <p class="footer--p-style">GDMDEV</p>
+    </span>
+    <ul class="footer--ul-spaceing">
+      <li class="footer--li-style">behance</li>
+      <li class="footer--li-style">instagram</li>
+      <li class="footer--li-style">pintrest</li>
+    </ul>
+  </footer>
+
+  <section id="overlay" class="sectoin--overlay-style">
+    <a class="a--position-side" id="close-button">
+      <img class="img--arrow-width" src="./images/home_page-afbeeldingen/menu-arrow.svg" alt="Pijl">
+      Close</a>
+
+    <div class="section--style-center">
+      <a href="./index.html" class="menu--text-style menu--text-down"><span class="number--size-small">01</span> our
+        work</a>
+      <div id="menuSwiper" class="swiper mySwipe img--slideshow-menu maring-padding">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="./images/menu_page-afbeeldingen/img_1.jpg" alt="Boek"></div>
+          <div class="swiper-slide"><img src="./images/menu_page-afbeeldingen/img_2.jpg" alt="Our work"></div>
+          <div class="swiper-slide"><img src="./images/menu_page-afbeeldingen/img_3.jpg" alt="about"></div>
+          <div class="swiper-slide"><img src="./images/menu_page-afbeeldingen/img_4.jpg" alt="contact"></div>
+        </div>
+      </div>
+      <a href="./about.html" class="menu--text-style menu--text-down"><span class="number--size-small">02</span>
+        about</a>
+      <a href="./contact.html" class="menu--text-style"><span class="number--size-small">03</span> contact</a>
+    </div>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="./dist/main.js"></script>
+</body>
+
+</html>

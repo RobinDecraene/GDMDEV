@@ -1,0 +1,16 @@
+footer {
+  background-color: $grey;
+  padding-bottom: 0rem;
+}
+
+.footer--ul-spaceing {
+  @include flex-row;
+  width: 96%;
+  justify-content: space-between;
+  margin-bottom: 1rem
+}
+
+.footer--animation-style {
+  overflow: hidden;
+  height: min-content;
+}

@@ -1,0 +1,135 @@
+.div--person-size {
+  width: 45%;
+  height: auto;
+}
+
+.div--person-left {
+  position: relative;
+  right: 18rem;
+}
+
+.div--person-right {
+  position: relative;
+  left: 18rem;
+  bottom: 18rem;
+}
+
+.div--person-up {
+  position: relative;
+  bottom: 28rem;
+}
+
+.h2--studio-above {
+  position: relative;
+  top: 2rem;
+}
+
+.h2--studio-under {
+  position: relative;
+  bottom: 2rem;
+}
+
+.p--positioin-left {
+  position: relative;
+  text-align: left;
+  right: 12rem;
+  margin: 2rem 0;
+  padding: 0;
+}
+
+.p--posiont-right_top {
+  position: relative;
+  text-align: left;
+  left: 30rem;
+  bottom: 4rem;
+  @include margin-padding;
+}
+
+.p--posiont-right {
+  position: relative;
+  text-align: left;
+  left: 12rem;
+  bottom: 9rem;
+  @include margin-padding;
+}
+
+.a--position-side {
+  position: fixed;
+  top: 1rem;
+  @include flex-row;
+  justify-content: end;
+  width: 96%;
+  font-size: 1.5rem;
+}
+
+.section--flex-row {
+  @include flex-row;
+}
+
+.section--flex-space {
+  @include flex-row;
+  justify-content: space-between;
+  
+}
+
+.div--float-widht {
+  width: 50%;
+  @include flex-colom;
+  align-items: end;
+}
+
+.text--float-width {
+  width: 30%;
+  margin-left: 1rem;
+  @include flex-colom;
+  align-items: center;
+  margin-top: 48rem;
+}
+
+.img--float-small {
+  width: 20%;
+}
+
+.img--float-normal {
+  width: 25%;
+}
+
+.img--float-medium {
+  width: 40%;
+}
+
+.img--float-big {
+  width: 60%;
+}
+
+.img--float-right {
+  position: relative;
+  left: 25%;
+}
+
+.img--float-left1 {
+  position: relative;
+  right: 80%;
+}
+
+.img--float-left2 {
+  position: relative;
+  right: 60%;
+}
+
+.img--float-middle {
+  position: relative;
+  right: 20%;
+}
+
+.div--products-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img--products-row {
+  width: 14%;
+  height: auto;
+  margin-top: 4rem;
+}
+

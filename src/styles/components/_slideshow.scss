@@ -1,0 +1,26 @@
+.img--slideshow-style {
+  @include flex-colom;
+  width: 50%;
+  height : 50rem;
+  margin-top: 5rem;
+}
+
+.img--slideshow-home {
+  @include flex-colom;
+  width: 100%;
+  height : 60rem;
+}
+
+.text--slideshow-home {
+  height: 5rem
+}
+
+.img--slideshow-menu {
+  @include flex-colom;
+  width: 20%;
+  height : 25rem;
+}
+
+.maring-padding {
+  @include margin-padding;
+}

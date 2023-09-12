@@ -1,0 +1,13 @@
+nav {
+  position: fixed;
+  top: 1rem;
+  @include flex-row;
+  justify-content: space-between;
+  width: 96%;
+  font-size: 1.5rem;
+
+  a {
+    @include flex-row;
+    align-items: center;
+  }
+}

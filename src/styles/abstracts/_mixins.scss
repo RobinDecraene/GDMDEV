@@ -1,0 +1,14 @@
+@mixin flex-colom {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+@mixin margin-padding {
+  padding: 0;
+  margin: 0;
+}

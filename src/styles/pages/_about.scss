@@ -1,0 +1,47 @@
+.section--background-grey {
+  background-color: $grey;
+}
+
+.section--background-oliv {
+  background-color: $olive;
+}
+
+.img--square-size {
+  width: 49%;
+  height: auto;
+}
+
+.div--img-width {
+  width: 40%;
+  justify-content: space-between;
+  margin: 5rem 0 10rem;
+  overflow: hidden;
+}
+
+.div--img-logos {
+  @include flex-row;
+  width: 100%;
+  justify-content: space-between;
+  margin: 10rem 0 4rem;
+
+  img {
+    width: 10%;
+  }
+}
+
+.section--person-height {
+  height: 135rem;
+}
+
+.img--product-size {
+  width: 40%;
+  height: auto;
+}
+
+.h2--margin-top {
+  margin-top: 2rem;
+}
+
+.img--melk-size {
+  width: 70%;
+}
