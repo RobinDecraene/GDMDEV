@@ -47,15 +47,15 @@ button {
 
 @font-face {
   font-family: "BigDailyShort";
-  src: url("/app/fonts/BigDailyShort-LightItalic.woff") format("woff"), url("/app/fonts/BigDailyShort-LightItalic.woff2") format("woff2");
+  src: url("/fonts/BigDailyShort-LightItalic.woff") format("woff"), url("/fonts/BigDailyShort-LightItalic.woff2") format("woff2");
 }
 @font-face {
   font-family: "ClashDisplay";
-  src: url("/app/fonts/ClashDisplay-Medium.woff") format("woff"), url("/app/fonts/ClashDisplay-Medium.woff2") format("woff2");
+  src: url("/fonts/ClashDisplay-Medium.woff") format("woff"), url("/fonts/ClashDisplay-Medium.woff2") format("woff2");
 }
 @font-face {
   font-family: "Surt-Regular";
-  src: url("/app/fonts/Surt-Regular.woff") format("woff"), url("/app/fonts/Surt-Regular.woff2") format("woff2");
+  src: url("/fonts/Surt-Regular.woff") format("woff"), url("/fonts/Surt-Regular.woff2") format("woff2");
 }
 body {
   font-family: "ClashDisplay";
